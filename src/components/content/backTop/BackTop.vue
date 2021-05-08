@@ -1,5 +1,5 @@
 <template>
-  <div class="back-top" @click="backClick">
+  <div class="back-top">
     <img src="~assets/img/common/top.png" alt="">
   </div>
 </template>
@@ -8,9 +8,9 @@
 export default {
   name: "BackTop",
   methods: {
-    backClick() {
-      console.log(111);
-    }
+    // backClick() {
+    //   console.log(111);
+    // }
   }
 }
 </script>
